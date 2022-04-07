@@ -22,6 +22,7 @@ header {
     margin: 0 auto;
     max-width: 100%;
     width: 1000px;
+    height: 6vh;
 }
 
 nav {
@@ -36,13 +37,15 @@ nav .logo {
 nav ul {
     display: flex;
     list-style-type: none;
-    padding: 0;
+    padding: 1rem;
+    font-weight: bold;
 }
 
 nav li a {
     color: white;
     text-decoration: none;
     padding: 1rem;
+    transition: 0.3s ease-in-out;
 }
 
 .selected {
@@ -52,7 +55,7 @@ nav li a {
 .highlight {
     background-color: red;
     color: white;
-    padding: 1rem;
+    padding: 0.8rem;
     text-decoration: none;
     border-radius: 5px;
     box-shadow: #00c2ff7d 0px 54px 55px, #00c2ff7d 0px -12px 30px, #00c2ff7d 0px 4px 6px, #00c2ff7d 0px 12px 13px, #00c2ff7d 0px -3px 5px;
