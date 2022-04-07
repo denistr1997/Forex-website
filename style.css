@@ -8,7 +8,7 @@ body {
 }
 
 header {
-    background-image: url('/img/bg-image.jpg');
+    background-image: url('/img/forex-chart.jpg');
     background-size: cover;
     background-position: center center;
     color: white;
@@ -50,11 +50,17 @@ nav li a {
 }
 
 .highlight {
-    background-color: #00c2ff;
+    background-color: red;
     color: white;
     padding: 1rem;
     text-decoration: none;
+    border-radius: 5px;
     box-shadow: #00c2ff7d 0px 54px 55px, #00c2ff7d 0px -12px 30px, #00c2ff7d 0px 4px 6px, #00c2ff7d 0px 12px 13px, #00c2ff7d 0px -3px 5px;
+    transition: 0.3s ease-in-out;
+}
+
+.highlight:hover {
+    background-color: rgb(247, 55, 55);
 }
 
 .content {
@@ -64,13 +70,13 @@ nav li a {
 }
 
 .content h1 {
-    color: #00c2ff;
+    color: white;
     margin-bottom: 0;
 }
 
 footer {
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     padding: 1rem;
 }
 
